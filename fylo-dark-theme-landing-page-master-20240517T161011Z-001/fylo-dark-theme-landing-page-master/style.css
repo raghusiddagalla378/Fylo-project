@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap");
+
+.header-container {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul{
+    margin: 30px;
+
+}
+
+.header-part-container {
+  background-color: hsl(217, 28%, 15%);
+  height: 20vh;
+
+  display: flex;
+  justify-content: space-between;
+
+}
+.intro-image{
+    height: 400px;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+
+.nav-bar-container{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    height: 35px;
+}
+
+.intro-container{
+    text-align: center;
+    padding: 20px;
+}
+
+.intro-container > h4{
+    line-height: 35px;
+    margin-top: 30px;
+}
+.intro-container > p{
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+#btn{
+    border: none;
+    background-color: hsl(176, 68%, 64%);
+    width: 210px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+
+}
+
+.main-container{
+    background-color: hsl(217, 28%, 15%);
+    color: hsl(0, 0%, 100%);
+
+
+}
+.icon{
+    text-align: center;
+    margin: auto;
+    padding: 200px;
+    color: hsl(0, 0%, 100%);
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    grid-template-rows: auto;
+    gap: 50px;
+}
+.file{
+    display: flex;
+}
+.image{
+    margin-left: 100px;
+}
+.pro{
+    margin: 50px;
+    padding: 60px;
+}
+#anchor{
+    text-decoration: none;
+    color: aqua;
+    padding-bottom: 10px;
+    border-bottom: 1px solid aqua;
+}
+.arrow{
+    padding-top: 0px;
+}
+.item{
+    width: 400px; 
+    height: 240px;
+    border: 2px solid none;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding: 40px 20px 20px 30px;
+    background-color: hsla(219, 36%, 21%, 0.53);
+}
+ .container{
+    background-image: url("./images/bg-quotes.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+}
+.profiles{
+    display: grid;
+    grid-template-columns: 40px auto;
+    grid-template-rows: 20px 20px;
+    row-gap: 1px;
+    column-gap: 10px;
+    padding-right: 10px;
+
+
+}
+.prof1{
+    border-radius: 50%;
+    height: 40px;
+    grid-row: span 2;
+}
+.search{
+    width: 900px;
+    height: 250px;
+    margin-bottom: 100px;
+    text-align: center;
+    background-color:hsl(217, 28%, 15%);
+    border: 2px solid black;   ;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 130px;
+    
+
+}
+.search2{
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+}
+.button1{
+    width: 200px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+.foot{
+    width: 100%;
+    height: 510px;
+    background-color: hsl(217, 72%, 7%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 210px;
+}
+.logo{
+    height: 60px;
+    
+}
+.locate{
+    height: 100px;
+    width: 400px;
+    margin-top: 50px;
+    color:hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: row;
+    column-gap:20px ;
+    
+}
+.loc{
+    height: 20px;
+    width: 20px;
+}
+p{
+    margin-bottom: 50px;
+}
+h6{
+    /* text-align: center; */
+    padding-top: 150px;
+    color: darkorange;
+}
+.footer1{
+    display: grid;
+    grid-template-row: auto;
+    
+    
+}
+.footer2{
+    color: hsl(0, 0%, 100%);
+    display: grid;
+    grid-template-columns: 20px auto;
+    grid-template-rows: 20px auto;
+    column-gap: 10px;
+    row-gap: 30px;
+}
+.foot3{
+    border: none;
+    height: 200px;
+    width: 150px;
+    
+}
+.foot4{
+    border: none;
+    height: 200px;
+    width: 180px;
+    
+    
+}
+.links{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    
+}
+.links1{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.face{
+    height: 40px;
+    width: 40px;
+    background-color: aliceblue;
+    border-radius: 30%;
+    
+}
+.twit{
+    height: 40px;
+    width: 40px;
+    background-color: aliceblue;
+    border-radius: 30%;
+    
+    
+}
+.insta{
+    height: 40px;
+    width: 40px;
+    background-color: aliceblue;
+    border-radius: 30%;
+}
